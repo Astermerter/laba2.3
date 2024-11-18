@@ -14,7 +14,7 @@ Lamp::Lamp() {
 
 Lamp::Lamp(float init_force, float init_power, float init_intensivity, int init_x, int init_y, int init_z) {
     if (init_force >= 0)
-        force = init_force;
+        force = init_force; 
     else 
         force = 0;
     if (init_power >= 0)

@@ -10,7 +10,7 @@ public:
 
     void setForce(float input_force);
     void setPower(float input_power);
-    void setIntensivity(float input_condition); 
+    void setIntensivity(float input_condition);  
     void setPosition(int x, int y, int z);
 
     float getForce() const;
